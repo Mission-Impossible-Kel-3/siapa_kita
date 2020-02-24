@@ -1,57 +1,115 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/blood.css">
+	<title>reveal.js</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/blood.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-background="img/slide1.PNG"></section>
-				<section data-background="img/slide2.PNG"></section>
-				<section data-background="img/slide3.PNG"></section>
-				<section data-background="img/slide4.PNG"></section>
-				<section data-background="img/slide6.PNG"></section>
-				<section data-background="img/slide7.PNG"></section>
-				<section data-background="img/slide8.PNG"></section>
-				<section data-background="img/slide9.PNG"></section>
-				<section data-background="img/slide10.PNG"></section>
-			</div>
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<audio src="music/missionimpossible.mp3" autoplay="autoplay"></audio>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background="img/slide1.PNG" data-background-transition="zoom"></section>
+			<section data-background="img/slide2.PNG" data-background-transition="slide"></section>
+			<section data-background="img/slide3.png" data-background-transition="convex"></section>
+			</section>
+			<section data-background="img/slide4.png" data-background-transition="concave"></section>
+			<section data-background="img/slide5.png" data-background-transition="concave"></section>
+			</section>
+			<section>
+				<section data-background="img/slide6.png" data-background-transition="slide"></section>
+				<section data-background="img/slide7.png" data-background-transition="slide"></section>
+				<section data-background="img/slide8.png" data-background-transition="slide"></section>
+				<section data-background="img/slide9.png" data-background-transition="slide"></section>
+				<section data-background="img/slide10.png" data-background-transition="slide"></section>
+			</section>
+			<section>
+				<section>
+					<h1>Member's Favorites</h1>
+				</section>
+				<section id="fragments">
+					<h2>5 Makanan Terfavorit by Sakhi</h2>
+					<p class="fragment">1. Indomie</p>
+					<p class="fragment">2. Ayam Bejeug</p>
+					<p class="fragment">3. Nasi Uduk Bu Oneng</p>
+					<p class="fragment">4. Nasi Goreng Bistik PUJAS</p>
+					<p class="fragment">5. Nasi Otok Owok Mutiara</p>
+				</section>
+				<section>
+					<h2>5 Film Terfavorit by Rey</h2>
+					<p class="fragment">1. Batman: The Dark Knight</p>
+					<p class="fragment">2. Captain America: The Winter Soldier</p>
+					<p class="fragment">3. Good Will Hunting</p>
+					<p class="fragment">4. How To Train Your Dragon</p>
+					<p class="fragment">5. Home Alone 3</p>
+				</section>
+				<section id="fragments">
+					<h2>5 Musisi Favorit by Hargi</h2>
+
+					<p class="fragment">1. Freddie Mercury</p>
+					<p class="fragment">2. John Lennon</p>
+					<p class="fragment">3. Paul McCartney</p>
+					<p class="fragment">4. Ringo Starr</p>
+					<p class="fragment">5. George Harrison</p>
+				</section>
+				<section id="fragments">
+					<h2>5 Mobil Favorit by Mizan</h2>
+
+					<p class="fragment">1. Ferrari</p>
+					<p class="fragment">2. Lamborgini</p>
+					<p class="fragment">3. Tata</p>
+					<p class="fragment">4. Peugeot</p>
+					<p class="fragment">5. Porsche</p>
+				</section>
+				<section id="fragments">
+					<h2>5 Game Favorit by Afdal</h2>
+
+					<p class="fragment">1. MOBILE LEGENDS</p>
+					<p class="fragment">2. PES</p>
+					<p class="fragment">3. Narutoooo</p>
+					<p class="fragment">4. Cacing</p>
+					<p class="fragment">5. Ruang Waktu Musim Panas</p>
+				</section>
+			</section>
+
 		</div>
+	</div>
+	</div>
 
-		<script src="js/reveal.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				hash: true,
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
-			});
-		</script>
-	</body>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			hash: true,
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/highlight/highlight.js' },
+				{ src: 'plugin/notes/notes.js', async: true }
+			]
+		});
+	</script>
+</body>
+
 </html>
